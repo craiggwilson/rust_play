@@ -1,0 +1,11 @@
+[package]
+name = "mongodb_odbc"
+version = "0.0.1"
+authors = ["Craig Wilson <craig.wilson@mongodb.com>"]
+
+[lib]
+name = "mongodb_odbc"
+crate-type = ["dylib"]
+
+[dependencies]
+winapi = "*"
